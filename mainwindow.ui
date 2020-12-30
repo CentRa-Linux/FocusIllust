@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Yu Gothic UI</family>
+    <stylestrategy>PreferAntialias</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="vlayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_5">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>true</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>true</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>1</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>1</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="autoFillBackground">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="brush">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QWidget" name="page_2">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QWidget" name="page_3">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QWidget" name="page_4">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="hlayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>34</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>true</bool>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QTabWidget" name="tabs">
+             <property name="font">
+              <font>
+               <family>Yu Gothic UI</family>
+               <pointsize>10</pointsize>
+               <stylestrategy>PreferDefault</stylestrategy>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QTabBar::close-button {
+    image: url(:/icons/icons/System/close-circle-line.svg);
+    subcontrol-origin: padding;
+    subcontrol-position: right; 
+}</string>
+             </property>
+             <property name="tabShape">
+              <enum>QTabWidget::Rounded</enum>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <property name="documentMode">
+              <bool>false</bool>
+             </property>
+             <property name="tabsClosable">
+              <bool>true</bool>
+             </property>
+             <property name="movable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="startpage">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="toolTip">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;StartPage!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="toolTipDuration">
+               <number>-1</number>
+              </property>
+              <attribute name="icon">
+               <iconset resource="res.qrc">
+                <normaloff>:/icons/icons/Buildings/home-3-line.svg</normaloff>:/icons/icons/Buildings/home-3-line.svg</iconset>
+              </attribute>
+              <attribute name="title">
+               <string>StartPage</string>
+              </attribute>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>48</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionCreate_New_Image_from_Clipboard"/>
+    <addaction name="actionCreate_New_Image_from_Storage"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionOpen_Recent_File_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose_This_Image"/>
+    <addaction name="actionClose_All_Images_in_This_Workspace"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport"/>
+    <addaction name="actionImport_As_a_New_Layer"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="actionRevert"/>
+    <addaction name="separator"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionExport_Togather"/>
+    <addaction name="actionExport_Together_as_Ebook"/>
+    <addaction name="actionPrint"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="edit">
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <weight>50</weight>
+      <bold>false</bold>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionPaste"/>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="edit"/>
+  </widget>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Media/image-add-line.svg</normaloff>:/icons/icons/Media/image-add-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>New...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="actionCreate_New_Image_from_Clipboard">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/clipboard-line.svg</normaloff>:/icons/icons/Document/clipboard-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Create New Image from Clipboard</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+O</string>
+   </property>
+  </action>
+  <action name="actionCreate_New_Image_from_Storage">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Device/hard-drive-2-line.svg</normaloff>:/icons/icons/Device/hard-drive-2-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Create New Image from Storage</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/folder-2-line.svg</normaloff>:/icons/icons/Document/folder-2-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Open...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionClose_This_Image">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/System/close-line.svg</normaloff>:/icons/icons/System/close-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Close This Image</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionClose_All_Images_in_This_Workspace">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/System/close-circle-line.svg</normaloff>:/icons/icons/System/close-circle-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Close All Images in This Workspace</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+W</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Device/save-line.svg</normaloff>:/icons/icons/Device/save-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Save...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save as...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/file-transfer-line.svg</normaloff>:/icons/icons/Document/file-transfer-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Export...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionExport_Togather">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/svgs/regular/images.svg</normaloff>:/icons/svgs/regular/images.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Export Images...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionExport_Together_as_Ebook">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/book-open-line.svg</normaloff>:/icons/icons/Document/book-open-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Export Image Together as Ebook...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionOpen_Recent_File">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Open Recent File</string>
+   </property>
+  </action>
+  <action name="actionRevert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/file-damage-line.svg</normaloff>:/icons/icons/Document/file-damage-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Revert</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Business/printer-line.svg</normaloff>:/icons/icons/Business/printer-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Print...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/System/close-line.svg</normaloff>:/icons/icons/System/close-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionOpen_Recent_File_2">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/folder-history-line.svg</normaloff>:/icons/icons/Document/folder-history-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Open Recent File</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/System/arrow-go-back-line.svg</normaloff>:/icons/icons/System/arrow-go-back-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/System/arrow-go-forward-line.svg</normaloff>:/icons/icons/System/arrow-go-forward-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionImport">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/file-download-line.svg</normaloff>:/icons/icons/Document/file-download-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Import</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+  <action name="actionImport_As_a_New_Layer">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/icons/Document/file-copy-line.svg</normaloff>:/icons/icons/Document/file-copy-line.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Import As a New Layer</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
